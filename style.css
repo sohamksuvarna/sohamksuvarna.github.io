@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.auto {
+  margin: auto;
+}
+
+.name {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.line {
+  display: block;
+  margin: 20px 0 35px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 0.5;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+  .line {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 3.25rem;
+  }
+}
+
+.about {
+  margin: 25px;
+}
+
+@media screen and (max-width:512px) {
+  .about {
+    margin: 25px 50px
+  }
+}
+
+@media screen and (min-width:513px) {
+  .about {
+    margin: 25px 100px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .about {
+   margin: 25px 250px; 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    margin: 25px 400px;
+  }
+}
