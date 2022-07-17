@@ -1,2 +1,0 @@
-# sohamsuvarna.github.io
-website
